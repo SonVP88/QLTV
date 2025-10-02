@@ -1,0 +1,5 @@
+<div class="container mt-3">
+    <input class="form-control" [(ngModel)]="tenTheLoai"  />
+    <button class="btn btn-primary" (click)="themTheLoai()" *ngIf="maTheLoai==0">Thêm Thể Loại</button>
+    <button class="btn btn-primary" (click)="suaTheLoai()" *ngIf="maTheLoai!=0">Sửa Thể Loại</button>
+</div>

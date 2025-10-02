@@ -1,0 +1,411 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "API_QLTV",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/NguoiDung": {
+      "post": {
+        "tags": [
+          "NguoiDung"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/NguoiDung"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NguoiDung"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NguoiDung"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/NguoiDung"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Sach": {
+      "get": {
+        "tags": [
+          "Sach"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Sach"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sach"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sach"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sach"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sach"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Sach"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sach"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sach"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sach"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sach"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Sach/{id}": {
+      "delete": {
+        "tags": [
+          "Sach"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Sach/SaveFile": {
+      "post": {
+        "tags": [
+          "Sach"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Sach/GetAllTenTheLoai": {
+      "get": {
+        "tags": [
+          "Sach"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TheLoai": {
+      "get": {
+        "tags": [
+          "TheLoai"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "TheLoai"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TheLoai"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TheLoai"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TheLoai"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TheLoai"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "TheLoai"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TheLoai"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TheLoai"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TheLoai"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TheLoai"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TheLoai/{id}": {
+      "delete": {
+        "tags": [
+          "TheLoai"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "NguoiDung": {
+        "type": "object",
+        "properties": {
+          "tenDangNhap": {
+            "type": "string",
+            "nullable": true
+          },
+          "matKhau": {
+            "type": "string",
+            "nullable": true
+          },
+          "hoVaTen": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Sach": {
+        "type": "object",
+        "properties": {
+          "maSach": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenSach": {
+            "type": "string",
+            "nullable": true
+          },
+          "theLoai": {
+            "type": "string",
+            "nullable": true
+          },
+          "tacGia": {
+            "type": "string",
+            "nullable": true
+          },
+          "namXuatBan": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nhaXuatBan": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngaynhap": {
+            "type": "string",
+            "nullable": true
+          },
+          "anh": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TheLoai": {
+        "type": "object",
+        "properties": {
+          "maTheLoai": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenTheLoai": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

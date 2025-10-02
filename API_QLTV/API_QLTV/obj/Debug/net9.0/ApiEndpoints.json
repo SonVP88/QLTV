@@ -1,0 +1,175 @@
+[
+  {
+    "ContainingType": "API_QLTV.Controllers.NguoiDungController",
+    "Method": "DangNhap",
+    "RelativePath": "api/NguoiDung",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nguoiDung",
+        "Type": "API_QLTV.Modes.NguoiDung",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_QLTV.Controllers.SachController",
+    "Method": "Get",
+    "RelativePath": "api/Sach",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_QLTV.Controllers.SachController",
+    "Method": "Post",
+    "RelativePath": "api/Sach",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sach",
+        "Type": "API_QLTV.Modes.Sach",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_QLTV.Controllers.SachController",
+    "Method": "Put",
+    "RelativePath": "api/Sach",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sach",
+        "Type": "API_QLTV.Modes.Sach",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_QLTV.Controllers.SachController",
+    "Method": "Delete",
+    "RelativePath": "api/Sach/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_QLTV.Controllers.SachController",
+    "Method": "GetAllTenTheLoai",
+    "RelativePath": "api/Sach/GetAllTenTheLoai",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_QLTV.Controllers.SachController",
+    "Method": "SaveFile",
+    "RelativePath": "api/Sach/SaveFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_QLTV.Controllers.TheLoaiController",
+    "Method": "Get",
+    "RelativePath": "api/TheLoai",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_QLTV.Controllers.TheLoaiController",
+    "Method": "Post",
+    "RelativePath": "api/TheLoai",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "theloai",
+        "Type": "API_QLTV.Modes.TheLoai",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_QLTV.Controllers.TheLoaiController",
+    "Method": "Put",
+    "RelativePath": "api/TheLoai",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "theloai",
+        "Type": "API_QLTV.Modes.TheLoai",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_QLTV.Controllers.TheLoaiController",
+    "Method": "Delete",
+    "RelativePath": "api/TheLoai/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_QLTV.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_QLTV.WeatherForecast, API_QLTV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

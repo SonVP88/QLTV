@@ -1,0 +1,6 @@
+@API_QLTV_HostAddress = http://localhost:5227
+
+GET {{API_QLTV_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
